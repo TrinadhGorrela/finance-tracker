@@ -1,0 +1,86 @@
+.transactionList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transactionItem {
+  background-color: var(--background-color);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+}
+
+.transactionActions {
+  display: flex;
+  gap: 8px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.submitBtn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.formCard {
+  width: 100%;
+}
+
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .layoutContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.formSection {
+  flex: 1;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.listSection {
+  flex: 2;
+  background-color: var(--surface-color);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.listHeading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+.balanceHeading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 32px;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.balancePositive {
+  color: var(--success-color);
+}
+
+.balanceNegative {
+  color: var(--danger-color);
+}
