@@ -16,6 +16,22 @@ A full-stack personal finance management application built with **React (Vite)**
 
 ---
 
+##  Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Transactions
+![Transactions](screenshots/transactions.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Register Page](screenshots/register.png)
+
+---
+
 ##  Tech Stack
 
 ### Frontend
